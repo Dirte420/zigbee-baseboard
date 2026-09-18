@@ -2,9 +2,239 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 88f6e9b7-a9ee-428f-beb3-c4c81beb4acd)
+	(uuid "88f6e9b7-a9ee-428f-beb3-c4c81beb4acd")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 90.17 48.26)
+		(size 34.29 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5570d240-1613-4665-88c8-c680bdea5de9")
+		(property "Sheetname" "MCU"
+			(at 90.17 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 90.17 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.98 48.26)
+		(size 34.29 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "62b5bf86-1475-43d3-85e3-4a2f20200204")
+		(property "Sheetname" "Expansion"
+			(at 220.98 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Expansion.kicad_sch"
+			(at 220.98 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 48.26)
+		(size 35.56 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a67da7b4-314d-4c05-8b08-97b4f4beeff8")
+		(property "Sheetname" "Power"
+			(at 44.45 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 44.45 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 48.26)
+		(size 33.02 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "afcc4c3a-993d-4de2-9d9b-ed311e72b2ec")
+		(property "Sheetname" "UserDebug"
+			(at 177.8 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UserDebug.kicad_sch"
+			(at 177.8 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 48.26)
+		(size 34.29 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d357bc5a-2bee-413c-946f-efdab0438f0e")
+		(property "Sheetname" "RF"
+			(at 134.62 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF.kicad_sch"
+			(at 134.62 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
