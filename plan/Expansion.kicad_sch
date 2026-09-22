@@ -4,5 +4,3875 @@
 	(generator_version "10.0")
 	(uuid "17a9b315-8c77-4542-bf07-ff0fbe949124")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Smarthome:EFR32MG24_Core_Expansion_2x6"
+			(pin_names
+				(offset 1.27)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 8.128 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "EFR32MG24_Core_Expansion_2x6"
+				(at 8.382 -10.414 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Smarthome:Module_EFR32MG24_Core_Castellated_2x6_PTH_P2.54mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "EFR32MG24 core board expansion interface, 2x6 castellated pads with optional PTH headers"
+				(at 13.97 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EFR32MG24 core expansion castellated PTH header 2x6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EFR32MG24_Core_Expansion_2x6_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 17.78 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 16.51 2.667)
+					(end 17.78 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 17.78 5.207)
+					(end 16.51 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 17.78 0.127)
+					(end 16.51 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 17.78 -2.413)
+					(end 16.51 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 17.78 -4.953)
+					(end 16.51 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 17.78 -7.493)
+					(end 16.51 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "PC00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "PC07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "PD05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "PB01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "PC01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 5.08 180)
+					(length 3.81)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 2.54 180)
+					(length 3.81)
+					(name "PC05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 0 180)
+					(length 3.81)
+					(name "PD02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -2.54 180)
+					(length 3.81)
+					(name "PA05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -5.08 180)
+					(length 3.81)
+					(name "PB03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -7.62 180)
+					(length 3.81)
+					(name "PC02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Smarthome:GPIO_SolderPad"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GPIO_SolderPad"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "GPIO solder pad test point bottom"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GPIO_SolderPad_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "PORT C"
+		(exclude_from_sim no)
+		(at 198.882 113.284 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "40a9e321-87ab-41fa-85a3-af1670516387")
+	)
+	(text "Castellated Pads + PTH\nGND, VBATT, GPIOs (8x EM4-Wakeup, 2x normal)"
+		(exclude_from_sim no)
+		(at 82.296 63.246 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "43563238-f2a1-4ce4-83e5-d2881aa94683")
+	)
+	(text "SWCLK"
+		(exclude_from_sim no)
+		(at 168.91 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45b203ff-8e71-49ad-92a9-f6252cfaca4d")
+	)
+	(text "SWDIO"
+		(exclude_from_sim no)
+		(at 169.164 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c89665e-eee3-4039-9bce-cf5692dd7e4c")
+	)
+	(text "PORT B"
+		(exclude_from_sim no)
+		(at 246.38 58.166 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "827a41d3-fdb9-43b3-8ffe-9f1ddf131347")
+	)
+	(text "PAIR\nBUTTON"
+		(exclude_from_sim no)
+		(at 169.164 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86078d42-3f97-4f62-a299-c48ff9c9373e")
+	)
+	(text "PORT D"
+		(exclude_from_sim no)
+		(at 246.38 112.776 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "9ed36379-6f79-4bdf-8bcb-d0eab02572b7")
+	)
+	(text "STATUS\nLED"
+		(exclude_from_sim no)
+		(at 169.164 135.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dbac75dd-5e4f-4578-9594-f57a69f1f24d")
+	)
+	(text "Solder Pads"
+		(exclude_from_sim no)
+		(at 223.012 49.53 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "e4f7031c-9808-4dd3-b0b9-b076a9cd4b8d")
+	)
+	(text "SWO"
+		(exclude_from_sim no)
+		(at 169.164 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6de0e0d-1e0d-4b0e-b97f-938b1c039b31")
+	)
+	(text "PORT A"
+		(exclude_from_sim no)
+		(at 198.12 57.912 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "f85362b0-de13-48b0-878a-bb0eb0f8b05a")
+	)
+	(wire
+		(pts
+			(xy 64.77 80.01) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0588fd32-dda2-48f0-9df7-e9b6712f66df")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 185.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f445d09-4194-4328-9397-88ae17d977ff")
+	)
+	(wire
+		(pts
+			(xy 232.41 129.54) (xy 236.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3fc86e-f32e-4781-96d7-b47fbb82b264")
+	)
+	(wire
+		(pts
+			(xy 43.18 90.17) (xy 43.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed9b5db-7831-4b22-a9ff-b2c897ef8975")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 107.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c84754a-d839-4908-aa9a-d5668a745cd2")
+	)
+	(wire
+		(pts
+			(xy 64.77 90.17) (xy 68.58 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d538bb9-12bb-4cf8-a1d6-8236afb4c750")
+	)
+	(wire
+		(pts
+			(xy 181.61 93.98) (xy 185.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355d5240-b2ff-4ad4-9c61-edbb9f94e917")
+	)
+	(wire
+		(pts
+			(xy 232.41 73.66) (xy 236.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368a5d06-83dd-4ec6-8807-bdeba1aac566")
+	)
+	(wire
+		(pts
+			(xy 181.61 63.5) (xy 185.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc78530-b9a4-42b9-b8ef-92af2d97901e")
+	)
+	(wire
+		(pts
+			(xy 181.61 139.7) (xy 185.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0127bc-ed21-4740-846e-d19bba9b368e")
+	)
+	(wire
+		(pts
+			(xy 181.61 68.58) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4289165f-dc52-4072-a08d-36bfcf0d2780")
+	)
+	(wire
+		(pts
+			(xy 181.61 99.06) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9f82f0-6d84-4558-b1df-9fbf31764eb1")
+	)
+	(wire
+		(pts
+			(xy 181.61 73.66) (xy 185.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbc7860-e0a6-4f92-9ed5-2a607bd291c4")
+	)
+	(wire
+		(pts
+			(xy 181.61 88.9) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581de52d-22f3-4eb9-9bf1-f538c0936730")
+	)
+	(wire
+		(pts
+			(xy 64.77 85.09) (xy 68.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59692725-1878-47ed-89b6-f67477b52115")
+	)
+	(wire
+		(pts
+			(xy 232.41 124.46) (xy 236.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abcd91f-b13b-4cb0-b13a-b566aaa76cb9")
+	)
+	(wire
+		(pts
+			(xy 181.61 124.46) (xy 185.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b125414-da1a-42de-92cc-eadeb1cbd8a7")
+	)
+	(wire
+		(pts
+			(xy 181.61 129.54) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d30ef11-0394-41f9-914d-d834ba5311be")
+	)
+	(wire
+		(pts
+			(xy 95.25 90.17) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d793305-ba6b-4256-ab9e-348cb4f7208f")
+	)
+	(wire
+		(pts
+			(xy 232.41 119.38) (xy 236.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff7982f-8b56-4a1b-a0b8-c4f1873544e3")
+	)
+	(wire
+		(pts
+			(xy 181.61 104.14) (xy 185.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618f48d7-4548-4230-ae49-deaab62c772a")
+	)
+	(wire
+		(pts
+			(xy 232.41 63.5) (xy 236.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a28d98-0de2-490f-bc90-64f9f3b1c2a6")
+	)
+	(wire
+		(pts
+			(xy 43.18 77.47) (xy 68.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c9b0a3-7613-47f6-a69b-a9597fa241cc")
+	)
+	(wire
+		(pts
+			(xy 232.41 78.74) (xy 236.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80eafacc-8b23-4a5d-b5aa-b1d3aedb7b5f")
+	)
+	(wire
+		(pts
+			(xy 232.41 68.58) (xy 236.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85858c46-79ea-4a47-99c4-ab23514435a5")
+	)
+	(wire
+		(pts
+			(xy 55.88 82.55) (xy 68.58 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5a1608-08a1-4a60-bca3-eb248d624193")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9045f392-ba61-46d6-a0d5-bdf206286908")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e3da50-500c-4368-9ea6-39d463f75a51")
+	)
+	(wire
+		(pts
+			(xy 95.25 87.63) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2def9cc-05e9-42a3-bc67-69b18c93bc40")
+	)
+	(wire
+		(pts
+			(xy 181.61 78.74) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b885dc17-bff4-49cc-9fa1-abe729b345e6")
+	)
+	(wire
+		(pts
+			(xy 181.61 83.82) (xy 185.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46ec6ed-3cd1-48f8-99f2-a99aba20e443")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 99.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85467e6-1911-43f2-9435-cd693f017ebf")
+	)
+	(wire
+		(pts
+			(xy 95.25 77.47) (xy 107.95 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4491d20-79e9-4cc4-bef9-edb62fa9a415")
+	)
+	(wire
+		(pts
+			(xy 181.61 134.62) (xy 185.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3279388-2057-432f-8950-58c45b57421a")
+	)
+	(wire
+		(pts
+			(xy 232.41 134.62) (xy 236.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85112f8-ac70-4283-b839-d7b5a46682f1")
+	)
+	(global_label "PC02"
+		(shape input)
+		(at 99.06 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04525218-4411-48e7-b811-5da4f2881291")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.0042 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PA00"
+		(shape input)
+		(at 181.61 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07840c1b-ec50-4ac2-ab86-2f8d5f4c1f09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8472 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PC03"
+		(shape input)
+		(at 181.61 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1489bce8-b232-4454-922e-f58c54d96970")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.6658 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PA06"
+		(shape input)
+		(at 181.61 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1756414c-f68d-4b82-84a9-208ef9575123")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8472 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PB05"
+		(shape input)
+		(at 232.41 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bbeba00-3dc8-4799-99b0-86c7c0609f6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4658 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PC04"
+		(shape input)
+		(at 181.61 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a0801ee-ff15-45da-adb5-f7ef6eb62057")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.6658 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PA04"
+		(shape input)
+		(at 181.61 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e416237-a90c-4ade-a141-c52490a1c633")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8472 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PD02"
+		(shape input)
+		(at 107.95 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f42e764-a660-4eb5-b381-52f084b92c42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8942 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PA01"
+		(shape input)
+		(at 181.61 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4522cda0-d4ce-4e4d-8c7c-2c2668a1649b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8472 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PC08"
+		(shape input)
+		(at 181.61 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "549d2dee-182c-4e7e-850d-bcbcefadcc36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.6658 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PA02"
+		(shape input)
+		(at 181.61 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a3cea05-51b0-425c-8ff1-e2b037622ef4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8472 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PA03"
+		(shape input)
+		(at 181.61 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70c11fa7-4eac-445f-8dc2-2ee80090f238")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8472 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PD04"
+		(shape input)
+		(at 232.41 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "763c8583-7a34-48f1-874f-ae91988442ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4658 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PB01"
+		(shape input)
+		(at 55.88 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7aefb128-1c69-47da-819f-00a892af58a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.9358 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PC00"
+		(shape input)
+		(at 64.77 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ec5ef31-dd55-4eed-96c7-7ac5b51a1b30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.8258 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PC05"
+		(shape input)
+		(at 99.06 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85540a3a-3842-44ee-a560-c7592c1f825e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.0042 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PB04"
+		(shape input)
+		(at 232.41 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88536313-a412-4632-bcbb-d9fac2823775")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4658 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PA05"
+		(shape input)
+		(at 99.06 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99aff24b-68e9-4fc0-891e-04fa506887bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.8228 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PD05"
+		(shape input)
+		(at 64.77 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b101a78-05a8-4fd9-8e40-f91d864ac31c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.8258 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PD03"
+		(shape input)
+		(at 232.41 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a54d9ffb-8ff9-4888-b56d-948e7a7b81e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4658 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PC01"
+		(shape input)
+		(at 64.77 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6d3748f-8937-44b6-a729-b5921b9301cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.8258 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PD01"
+		(shape input)
+		(at 232.41 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9d6e96a-8a89-4170-bda1-e5893c075b61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4658 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PC07"
+		(shape input)
+		(at 55.88 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afea2ce4-912b-43d4-9957-8d2fbf847c13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.9358 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 107.95 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "baf3639c-b11a-4cea-80ce-cd8b41582cc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.35 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PC06"
+		(shape input)
+		(at 181.61 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0e7b32b-8e36-4f41-8a86-8c8d4cd78426")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.6658 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PB03"
+		(shape input)
+		(at 107.95 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3e7d0ba-790f-4f35-98b1-ff11b4c760e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8942 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PA09"
+		(shape input)
+		(at 181.61 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c789ff00-2cfc-4bc1-9b1f-33cd109dcf0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8472 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PB02"
+		(shape input)
+		(at 232.41 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce5bb9ec-ddf4-4bee-8e96-3a19bbe6d52a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4658 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PC09"
+		(shape input)
+		(at 181.61 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0fbb6f2-10cb-4472-bdab-84465a67f2b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.6658 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PD00"
+		(shape input)
+		(at 232.41 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc3b8e75-5bc6-47e8-ae02-b6b56607aecd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4658 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PA08"
+		(shape input)
+		(at 181.61 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0222696-c87a-4af2-8242-35f44d1be9aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8472 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PA07"
+		(shape input)
+		(at 181.61 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7a2c754-e09b-4d6b-b07a-d93b8f474b42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8472 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PB00"
+		(shape input)
+		(at 232.41 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9fdab4a-6d78-4559-9272-4136aba8e368")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.4658 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16691197-6024-4e5a-8bb4-4202542d902b")
+		(property "Reference" "TP14"
+			(at 193.04 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4deb0da6-5cc9-4b71-8222-a312d3149c56")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 241.3 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "191a24b2-dc55-4b81-8de1-910fcb861f20")
+		(property "Reference" "TP10"
+			(at 243.84 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 243.84 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 241.3 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 241.3 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "471fcffc-5caa-4c72-bf10-9e241bb552dc")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23206cfd-9696-42f0-82cc-7d778048e875")
+		(property "Reference" "#PWR017"
+			(at 43.18 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "981a4ed9-dcdf-43a8-b3d5-395dbdcd301d")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 241.3 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26d25c7f-4e60-40d6-a562-1d5a7389a019")
+		(property "Reference" "TP11"
+			(at 243.84 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 243.84 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 241.3 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 241.3 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6221dd99-c2e8-46ff-a89c-6f6acd085e74")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26d3c55c-416e-469a-9a5a-f36732108c82")
+		(property "Reference" "TP15"
+			(at 193.04 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddfb35ba-0408-487d-b50d-6040ebd12d70")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 241.3 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3464af8d-e652-4f80-af57-f5f0b83ac2c1")
+		(property "Reference" "TP22"
+			(at 243.84 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 243.84 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 241.3 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 241.3 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40c2d7a5-758c-4403-92f2-231516c82a6a")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 241.3 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d2f18c0-c417-431d-8b3b-bb29a87ba650")
+		(property "Reference" "TP21"
+			(at 243.84 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 243.84 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 241.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 241.3 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6689e347-3fd9-498e-837a-36b56b6e8319")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d98b135-c50d-4f98-bb08-2721f8cef1dd")
+		(property "Reference" "TP7"
+			(at 193.04 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3244377-5436-4593-bcb7-70a10e0b58dc")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51f4b59f-36d8-4a23-bdba-c172a9f7bd05")
+		(property "Reference" "TP3"
+			(at 193.04 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c67017c-86f6-45a7-967d-9ca969b7c2be")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58a2bcd2-5d14-4c20-bba7-7038b28c3747")
+		(property "Reference" "TP8"
+			(at 193.04 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83317420-91a3-47ea-a86f-dae5f93702e3")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 241.3 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e06bc4e-1a8a-4409-9ec7-17c61e570ca1")
+		(property "Reference" "TP13"
+			(at 243.84 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 243.84 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 241.3 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 241.3 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39fe84e1-c2ba-458d-9f6c-6534b20c15e2")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ea6bc2-fe40-46da-b00a-3a677adda80c")
+		(property "Reference" "TP17"
+			(at 193.04 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aded1f8e-7d4e-43ab-a3de-f30c81bd851b")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c4efcc4-267b-459d-b792-c5d8caa751fe")
+		(property "Reference" "TP18"
+			(at 193.04 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "184de347-39fe-482a-83e1-771f6e83f847")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7650d70f-e8e6-40a2-b96e-f60e4ef959ed")
+		(property "Reference" "TP5"
+			(at 193.04 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b20d88a-026a-49ce-9d78-cb36a958009b")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80b8abbe-822f-4bee-99ac-49e65a052d7f")
+		(property "Reference" "TP1"
+			(at 193.04 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57bc4039-a519-4e55-ae7a-b11b69c89b7f")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 241.3 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94c18aa3-9ef8-41c7-87d3-320d53bf788e")
+		(property "Reference" "TP20"
+			(at 243.84 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 243.84 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 241.3 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 241.3 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43ff4fcd-d2e2-4d2a-b01f-d8940c4b19d9")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a13f1b77-3f29-42fa-935d-348160a1ef0f")
+		(property "Reference" "TP2"
+			(at 193.04 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5846952-6768-4de0-85e3-878bc0e83f3f")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:EFR32MG24_Core_Expansion_2x6")
+		(at 73.66 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a64b37ea-b52d-4d0b-9c8e-2fbaee77ea12")
+		(property "Reference" "J2"
+			(at 81.915 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EFR32MG24_Core_Expansion_2x6"
+			(at 81.915 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Smarthome:Module_EFR32MG24_Core_Castellated_2x6_PTH_P2.54mm"
+			(at 73.66 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "EFR32MG24 core board expansion interface, 2x6 castellated pads with optional PTH headers"
+			(at 87.63 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fd77e77e-6dd4-4836-b201-82ae5440b1b5")
+		)
+		(pin "1"
+			(uuid "501b24f2-3ccb-44ce-ace4-89fe83560048")
+		)
+		(pin "2"
+			(uuid "a1425442-7c71-4044-bb33-e76df0034c93")
+		)
+		(pin "6"
+			(uuid "dbfa726d-d25a-4374-8a15-45753f587fe4")
+		)
+		(pin "7"
+			(uuid "9d84d0f5-db33-427c-bbe1-b2e7090a6bdf")
+		)
+		(pin "9"
+			(uuid "350f7db3-662f-484e-918b-e1eb649290c6")
+		)
+		(pin "12"
+			(uuid "f5851c23-a5c9-4821-845d-80fc043ce665")
+		)
+		(pin "8"
+			(uuid "156fba96-ecca-4d27-a46c-7ed059d46029")
+		)
+		(pin "10"
+			(uuid "146ea24c-7abb-4eeb-8fcb-603ad986df70")
+		)
+		(pin "4"
+			(uuid "276c09e5-d1ac-4eaa-867d-8f1f13469f04")
+		)
+		(pin "5"
+			(uuid "c2d786d8-6eef-4ff4-be53-75ecf6c8b4b4")
+		)
+		(pin "11"
+			(uuid "679a8df2-d857-4c6c-9e2c-58508698be45")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e58cd1-9eb9-4899-a7d6-a8f90d09f471")
+		(property "Reference" "TP9"
+			(at 193.04 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56acc19e-0218-42da-ae21-cf5405132e21")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 241.3 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abb7dcf3-851b-4c61-a13d-d547b95335ab")
+		(property "Reference" "TP12"
+			(at 243.84 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 243.84 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 241.3 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 241.3 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36b2fd08-ef27-4920-b8da-a3301e1c5c01")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b35f61ff-db2d-4318-94ba-2e7f69110475")
+		(property "Reference" "TP6"
+			(at 193.04 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85186ced-2b3e-4059-87e7-dd2bc0a090b6")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 241.3 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e2cf30-3610-4575-a78d-9103b1faed4d")
+		(property "Reference" "TP19"
+			(at 243.84 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 243.84 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 241.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 241.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cc0c004-cfe0-4f5c-a02a-41b2d1b61405")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a54ec9-ca96-444f-bee0-b9a8cdc4f308")
+		(property "Reference" "TP4"
+			(at 193.04 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7f74764-1239-4d46-849a-f73cac74fec2")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Smarthome:GPIO_SolderPad")
+		(at 190.5 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d792d882-7090-48b7-bb87-c84f61c61e43")
+		(property "Reference" "TP16"
+			(at 193.04 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO_SolderPad"
+			(at 193.04 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
+			(at 190.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.0 mm bottom-side solder pad for optional GPIO connection"
+			(at 190.5 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3650ab90-2bcc-4f4b-9f19-1e639c1e4249")
+		)
+		(instances
+			(project "zigbee-baseboard"
+				(path "/88f6e9b7-a9ee-428f-beb3-c4c81beb4acd/62b5bf86-1475-43d3-85e3-4a2f20200204"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
