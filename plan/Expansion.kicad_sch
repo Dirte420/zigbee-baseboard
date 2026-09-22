@@ -697,6 +697,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PA01 - SWCLK (shared)\nPA02 - SWDIO (shared)\nPA03 - SWO (shared)\nPC08 - Status LED (shared)\nPC09 - Pair Button (shared)"
+		(exclude_from_sim no)
+		(at 72.39 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f5ccc29-a819-4d66-8262-fbf89b6162d7")
+	)
 	(text "PORT C"
 		(exclude_from_sim no)
 		(at 198.882 113.284 0)
