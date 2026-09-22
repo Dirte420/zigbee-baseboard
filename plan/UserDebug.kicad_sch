@@ -512,33 +512,31 @@
 		)
 		(symbol "Smarthome:Debug_SWD_Pogo_2x3"
 			(pin_names
-				(offset 2.286)
+				(offset 1.27)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J1"
-				(at 3.048 7.366 0)
+			(property "Reference" "J"
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "Debug_SWD_Pogo_2x3"
-				(at -5.08 -10.922 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Smarthome:Debug_SWD_Pogo_2x3_P2.00mm"
