@@ -7456,13 +7456,14 @@
 		)
 	)
 	(footprint "Smarthome:Button_Panasonic_EVPBB_2.6x1.6mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "be367085-8cbc-4533-9656-73455bf8955f")
-		(at 57.025 75.55)
+		(at 138 100 90)
 		(descr "Panasonic EVP-BB series SMD light touch switch, 2.6 x 1.6 mm, top push, 4 pads")
 		(tags "Panasonic EVPBB EVP-BB tactile switch button 2.6x1.6 SMD")
 		(property "Reference" "SW1"
-			(at 0 -2 0)
+			(at 0 -2 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e67da14f-9a56-4e8f-a566-e57c5757d364")
@@ -7474,7 +7475,7 @@
 			)
 		)
 		(property "Value" "EVPBB2A9B000"
-			(at 0 2 0)
+			(at 0 2 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "df49a147-b0b1-4ad7-abed-2d066df81a3f")
@@ -7486,7 +7487,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C362.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7499,7 +7500,7 @@
 			)
 		)
 		(property "Description" "Panasonic EVPBB2A9B000, SMD light touch switch, SPST-NO, top push, 2.6 x 1.6 x 0.53 mm, 1.6 N"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7545,6 +7546,16 @@
 			(uuid "8ccf47e8-b91c-4e1f-a299-1f7afb6796f1")
 		)
 		(fp_line
+			(start 1.3 -0.8)
+			(end -1 -0.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "2a23d957-1831-4ebb-b0dd-530239bb7887")
+		)
+		(fp_line
 			(start -1.3 -0.5)
 			(end -1 -0.8)
 			(stroke
@@ -7553,6 +7564,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "cbfc3925-86ee-41df-88e6-ff1fafa84665")
+		)
+		(fp_line
+			(start 1.3 0.8)
+			(end 1.3 -0.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "471b235e-015a-41c6-84f4-821e29b1c218")
 		)
 		(fp_line
 			(start -1.3 0.8)
@@ -7574,28 +7595,8 @@
 			(layer "F.Fab")
 			(uuid "4ce26b07-0d8f-4cb7-aff5-6ba70f30383a")
 		)
-		(fp_line
-			(start 1.3 -0.8)
-			(end -1 -0.8)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "2a23d957-1831-4ebb-b0dd-530239bb7887")
-		)
-		(fp_line
-			(start 1.3 0.8)
-			(end 1.3 -0.8)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.Fab")
-			(uuid "471b235e-015a-41c6-84f4-821e29b1c218")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "dbdaf9b3-25a8-433b-8835-81af1ba074ae")
@@ -7607,7 +7608,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.325 -0.375)
+			(at -1.325 -0.375 90)
 			(size 0.55 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -7616,7 +7617,7 @@
 			(uuid "d8d27aac-512b-4e81-94d5-43d1da34062c")
 		)
 		(pad "1" smd rect
-			(at -1.325 0.375)
+			(at -1.325 0.375 90)
 			(size 0.55 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -7625,7 +7626,7 @@
 			(uuid "b55db65b-c099-4333-b62f-7b89ca66fe26")
 		)
 		(pad "2" smd rect
-			(at 1.325 -0.375)
+			(at 1.325 -0.375 90)
 			(size 0.55 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "PC09")
@@ -7634,7 +7635,7 @@
 			(uuid "7922795a-ab9e-46fb-91b9-b9d562eb98ce")
 		)
 		(pad "2" smd rect
-			(at 1.325 0.375)
+			(at 1.325 0.375 90)
 			(size 0.55 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "PC09")
