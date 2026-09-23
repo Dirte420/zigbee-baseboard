@@ -5,7 +5,7 @@
 	(uuid "17a9b315-8c77-4542-bf07-ff0fbe949124")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Smarthome:EFR32MG24_Core_Expansion_2x6"
+		(symbol "Smarthome:EFR32MG24_Core_Expansion_L12"
 			(pin_names
 				(offset 1.27)
 			)
@@ -15,7 +15,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 8.128 7.366 0)
+				(at 0.254 8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -24,8 +24,8 @@
 					)
 				)
 			)
-			(property "Value" "EFR32MG24_Core_Expansion_2x6"
-				(at 8.382 -10.414 0)
+			(property "Value" "EFR32MG24_Core_Expansion_L12"
+				(at 9.652 -14.732 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Smarthome:Module_EFR32MG24_Core_Castellated_2x6_PTH_P2.54mm"
+			(property "Footprint" "Smarthome:Module_EFR32MG24_Core_Castellated_L_12Pin_P2.54mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -56,7 +56,7 @@
 					)
 				)
 			)
-			(property "Description" "EFR32MG24 core board expansion interface, 2x6 castellated pads with optional PTH headers"
+			(property "Description" "EFR32MG24 core board expansion interface, L-shaped 12-pin castellated pads with optional PTH headers"
 				(at 13.97 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -89,10 +89,10 @@
 					)
 				)
 			)
-			(symbol "EFR32MG24_Core_Expansion_2x6_1_1"
+			(symbol "EFR32MG24_Core_Expansion_L12_1_1"
 				(rectangle
 					(start -1.27 6.35)
-					(end 17.78 -8.89)
+					(end 21.59 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -168,8 +168,8 @@
 					)
 				)
 				(rectangle
-					(start 16.51 2.667)
-					(end 17.78 2.413)
+					(start -1.27 -10.033)
+					(end 0 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -179,8 +179,8 @@
 					)
 				)
 				(rectangle
-					(start 17.78 5.207)
-					(end 16.51 4.953)
+					(start 8.763 6.35)
+					(end 9.017 5.08)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -190,8 +190,8 @@
 					)
 				)
 				(rectangle
-					(start 17.78 0.127)
-					(end 16.51 -0.127)
+					(start 11.303 6.35)
+					(end 11.557 5.08)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -201,8 +201,8 @@
 					)
 				)
 				(rectangle
-					(start 17.78 -2.413)
-					(end 16.51 -2.667)
+					(start 13.843 6.35)
+					(end 14.097 5.08)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -212,8 +212,8 @@
 					)
 				)
 				(rectangle
-					(start 17.78 -4.953)
-					(end 16.51 -5.207)
+					(start 16.383 6.35)
+					(end 16.637 5.08)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -223,8 +223,8 @@
 					)
 				)
 				(rectangle
-					(start 17.78 -7.493)
-					(end 16.51 -7.747)
+					(start 18.923 6.35)
+					(end 19.177 5.08)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -342,7 +342,7 @@
 					)
 				)
 				(pin passive line
-					(at 21.59 5.08 180)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "VBAT"
 						(effects
@@ -360,7 +360,7 @@
 					)
 				)
 				(pin passive line
-					(at 21.59 2.54 180)
+					(at 8.89 10.16 270)
 					(length 3.81)
 					(name "PC05"
 						(effects
@@ -378,7 +378,7 @@
 					)
 				)
 				(pin passive line
-					(at 21.59 0 180)
+					(at 11.43 10.16 270)
 					(length 3.81)
 					(name "PD02"
 						(effects
@@ -396,7 +396,7 @@
 					)
 				)
 				(pin passive line
-					(at 21.59 -2.54 180)
+					(at 13.97 10.16 270)
 					(length 3.81)
 					(name "PA05"
 						(effects
@@ -414,7 +414,7 @@
 					)
 				)
 				(pin passive line
-					(at 21.59 -5.08 180)
+					(at 16.51 10.16 270)
 					(length 3.81)
 					(name "PB03"
 						(effects
@@ -432,7 +432,7 @@
 					)
 				)
 				(pin passive line
-					(at 21.59 -7.62 180)
+					(at 19.05 10.16 270)
 					(length 3.81)
 					(name "PC02"
 						(effects
@@ -720,7 +720,7 @@
 	)
 	(text "Castellated Pads + PTH\nGND, VBATT, GPIOs (8x EM4-Wakeup, 2x normal)"
 		(exclude_from_sim no)
-		(at 82.296 63.246 0)
+		(at 83.312 49.276 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -820,6 +820,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 69.85) (xy 90.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e60d6d-28bb-4a18-ae77-02795a3a4c92")
+	)
+	(wire
+		(pts
 			(xy 64.77 80.01) (xy 68.58 80.01)
 		)
 		(stroke
@@ -850,6 +860,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 69.85) (xy 85.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb4be66-dc1f-4511-8e07-5b5bae36334b")
+	)
+	(wire
+		(pts
 			(xy 43.18 90.17) (xy 43.18 77.47)
 		)
 		(stroke
@@ -860,13 +880,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 82.55) (xy 107.95 82.55)
+			(xy 55.88 92.71) (xy 68.58 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c84754a-d839-4908-aa9a-d5668a745cd2")
+		(uuid "2c420276-c09c-4a0e-bf2a-4633953056fd")
 	)
 	(wire
 		(pts
@@ -950,6 +970,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 62.23) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef7b7a8-5122-466a-b90b-2278a2a009e2")
+	)
+	(wire
+		(pts
 			(xy 181.61 88.9) (xy 185.42 88.9)
 		)
 		(stroke
@@ -1000,16 +1030,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 99.06 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d793305-ba6b-4256-ab9e-348cb4f7208f")
-	)
-	(wire
-		(pts
 			(xy 232.41 119.38) (xy 236.22 119.38)
 		)
 		(stroke
@@ -1037,6 +1057,16 @@
 			(type default)
 		)
 		(uuid "63a28d98-0de2-490f-bc90-64f9f3b1c2a6")
+	)
+	(wire
+		(pts
+			(xy 82.55 62.23) (xy 82.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2518a1-be8c-4f89-8a92-b6f98a722e2a")
 	)
 	(wire
 		(pts
@@ -1090,26 +1120,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 80.01) (xy 99.06 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e3da50-500c-4368-9ea6-39d463f75a51")
-	)
-	(wire
-		(pts
-			(xy 95.25 87.63) (xy 107.95 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2def9cc-05e9-42a3-bc67-69b18c93bc40")
-	)
-	(wire
-		(pts
 			(xy 181.61 78.74) (xy 185.42 78.74)
 		)
 		(stroke
@@ -1130,23 +1140,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 99.06 85.09)
+			(xy 92.71 62.23) (xy 92.71 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c85467e6-1911-43f2-9435-cd693f017ebf")
-	)
-	(wire
-		(pts
-			(xy 95.25 77.47) (xy 107.95 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4491d20-79e9-4cc4-bef9-edb62fa9a415")
+		(uuid "cb68470b-403b-4df5-ac19-bfe58943b5b5")
 	)
 	(wire
 		(pts
@@ -1170,7 +1170,7 @@
 	)
 	(global_label "PC02"
 		(shape input)
-		(at 99.06 90.17 0)
+		(at 92.71 62.23 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1180,7 +1180,7 @@
 		)
 		(uuid "04525218-4411-48e7-b811-5da4f2881291")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.0042 90.17 0)
+			(at 92.71 54.2858 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1338,7 +1338,7 @@
 	)
 	(global_label "PD02"
 		(shape input)
-		(at 107.95 82.55 0)
+		(at 85.09 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1348,7 +1348,7 @@
 		)
 		(uuid "3f42e764-a660-4eb5-b381-52f084b92c42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.8942 82.55 0)
+			(at 85.09 61.9058 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1530,7 +1530,7 @@
 	)
 	(global_label "PC05"
 		(shape input)
-		(at 99.06 80.01 0)
+		(at 82.55 62.23 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1540,7 +1540,7 @@
 		)
 		(uuid "85540a3a-3842-44ee-a560-c7592c1f825e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.0042 80.01 0)
+			(at 82.55 54.2858 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1578,7 +1578,7 @@
 	)
 	(global_label "PA05"
 		(shape input)
-		(at 99.06 85.09 0)
+		(at 87.63 62.23 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1588,7 +1588,7 @@
 		)
 		(uuid "99aff24b-68e9-4fc0-891e-04fa506887bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.8228 85.09 0)
+			(at 87.63 54.4672 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1722,17 +1722,17 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 107.95 77.47 0)
+		(at 55.88 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "baf3639c-b11a-4cea-80ce-cd8b41582cc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.35 77.47 0)
+			(at 48.48 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1740,7 +1740,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -1770,7 +1770,7 @@
 	)
 	(global_label "PB03"
 		(shape input)
-		(at 107.95 87.63 0)
+		(at 90.17 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1780,7 +1780,7 @@
 		)
 		(uuid "c3e7d0ba-790f-4f35-98b1-ff11b4c760e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.8942 87.63 0)
+			(at 90.17 61.9058 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3303,7 +3303,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Smarthome:EFR32MG24_Core_Expansion_2x6")
+		(lib_id "Smarthome:EFR32MG24_Core_Expansion_L12")
 		(at 73.66 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -3312,29 +3312,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a64b37ea-b52d-4d0b-9c8e-2fbaee77ea12")
 		(property "Reference" "J2"
-			(at 81.915 71.12 0)
+			(at 73.152 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "EFR32MG24_Core_Expansion_2x6"
-			(at 81.915 73.66 0)
+		(property "Value" "EFR32MG24_Core_Expansion_L12"
+			(at 69.342 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Smarthome:Module_EFR32MG24_Core_Castellated_2x6_PTH_P2.54mm"
+		(property "Footprint" "Smarthome:Module_EFR32MG24_Core_Castellated_L_12Pin_P2.54mm"
 			(at 73.66 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3356,7 +3357,7 @@
 				)
 			)
 		)
-		(property "Description" "EFR32MG24 core board expansion interface, 2x6 castellated pads with optional PTH headers"
+		(property "Description" "EFR32MG24 core board expansion interface, L-shaped 12-pin castellated pads with optional PTH headers"
 			(at 87.63 82.55 0)
 			(hide yes)
 			(show_name no)
