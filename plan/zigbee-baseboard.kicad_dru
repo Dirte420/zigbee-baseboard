@@ -1,0 +1,5 @@
+(version 1)
+(rule "U1 QFN clearance"
+    (condition "A.Parent == 'U1' || B.Parent == 'U1'")
+    (constraint clearance (min 0.10mm))
+)
