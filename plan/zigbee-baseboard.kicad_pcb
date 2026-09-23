@@ -5670,6 +5670,12 @@
 		(path "/62b5bf86-1475-43d3-85e3-4a2f20200204/a64b37ea-b52d-4d0b-9c8e-2fbaee77ea12")
 		(sheetname "/Expansion/")
 		(sheetfile "Expansion.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7749,11 +7755,14 @@
 		(embedded_fonts no)
 	)
 	(footprint "Smarthome:Debug_SWD_Pogo_2x3_P2.00mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "cfb98d87-5b45-43c2-b59d-4304b9a76ae9")
-		(at 52.175 79.45)
+		(at 139 88.2 180)
+		(descr "6-pin 2x3 SWD pogo-pad interface, 2.00 mm pitch, bottom-side SMD contact pads, without alignment holes")
+		(tags "SWD debug pogo programming 2x3 2.00mm bottom")
 		(property "Reference" "J1"
-			(at 0 -5.8 0)
+			(at 0 -5.8 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "749bdd4d-a050-4319-b2b3-bdeca315e0b0")
@@ -7764,8 +7773,8 @@
 				)
 			)
 		)
-		(property "Value" "Debug_SWD_Pogo_2x3"
-			(at 0 7.5 0)
+		(property "Value" "Debug_SWD_Pogo_2x3_P2.00mm"
+			(at 0 7.5 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c49eac66-7082-497f-8224-38cacdb2ee8a")
@@ -7777,7 +7786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7789,8 +7798,8 @@
 				)
 			)
 		)
-		(property "Description" "6-pin SWD programming interface with 2x3 pogo pads and two asymmetric NPTH alignment holes"
-			(at 0 0 0)
+		(property "Description" "6-pin SWD pogo programming interface, 2x3, 2.00 mm pitch, without alignment holes"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7806,12 +7815,6 @@
 		(path "/afcc4c3a-993d-4de2-9d9b-ed311e72b2ec/c06f5d89-324a-4f24-972b-f68b6b2bea7d")
 		(sheetname "/UserDebug/")
 		(sheetfile "UserDebug.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7826,8 +7829,8 @@
 			(uuid "15ff3332-c062-46ad-858d-ebdf3684307d")
 		)
 		(fp_rect
-			(start -2 -5.15)
-			(end 2 5.65)
+			(start -2 -3)
+			(end 2 3)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -7837,7 +7840,7 @@
 			(uuid "74722fe4-b40a-4dca-90f9-ddac75cd3666")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 6.3 0)
+			(at 0 6.3 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "2552c4ad-86d7-48f7-a418-50d4974f2b5c")
@@ -7848,22 +7851,8 @@
 				)
 			)
 		)
-		(pad "" np_thru_hole circle
-			(at 0 -4.1)
-			(size 1.6 1.6)
-			(drill 1.6)
-			(layers "*.Cu" "*.Mask")
-			(uuid "80e72d98-bfc4-4aa9-b304-f2022ab9e8ce")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 4.6)
-			(size 1.6 1.6)
-			(drill 1.6)
-			(layers "*.Cu" "*.Mask")
-			(uuid "bad71d44-0a82-492b-b954-0139c7370dc0")
-		)
 		(pad "1" smd circle
-			(at -1 -2)
+			(at -1 -2 180)
 			(size 1.5 1.5)
 			(layers "B.Cu" "B.Mask")
 			(net "VBAT")
@@ -7872,7 +7861,7 @@
 			(uuid "8b675beb-0070-4322-9286-71ceb7ca85a0")
 		)
 		(pad "2" smd circle
-			(at 1 -2)
+			(at 1 -2 180)
 			(size 1.5 1.5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
@@ -7881,7 +7870,7 @@
 			(uuid "55c013b8-c7bb-4bac-b2a5-6895eda67eff")
 		)
 		(pad "3" smd circle
-			(at -1 0)
+			(at -1 0 180)
 			(size 1.5 1.5)
 			(layers "B.Cu" "B.Mask")
 			(net "PA02")
@@ -7890,7 +7879,7 @@
 			(uuid "f3ad1c24-9646-4b0e-bfe1-407dc43a1fd7")
 		)
 		(pad "4" smd circle
-			(at 1 0)
+			(at 1 0 180)
 			(size 1.5 1.5)
 			(layers "B.Cu" "B.Mask")
 			(net "PA01")
@@ -7899,7 +7888,7 @@
 			(uuid "f112a95a-38b6-4ea9-a576-74f3b6f9fe46")
 		)
 		(pad "5" smd circle
-			(at -1 2)
+			(at -1 2 180)
 			(size 1.5 1.5)
 			(layers "B.Cu" "B.Mask")
 			(net "~{RESET}")
@@ -7908,7 +7897,7 @@
 			(uuid "899e6892-dd71-468f-8af9-0211e49e66cd")
 		)
 		(pad "6" smd circle
-			(at 1 2)
+			(at 1 2 180)
 			(size 1.5 1.5)
 			(layers "B.Cu" "B.Mask")
 			(net "PA03")

@@ -529,7 +529,7 @@
 					)
 				)
 			)
-			(property "Value" "Debug_SWD_Pogo_2x3"
+			(property "Value" "Debug_SWD_Pogo_2x3_P2.00mm"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -561,7 +561,7 @@
 					)
 				)
 			)
-			(property "Description" "6-pin SWD programming interface with 2x3 pogo pads and two asymmetric NPTH alignment holes"
+			(property "Description" "6-pin SWD pogo programming interface, 2x3, 2.00 mm pitch, without alignment holes"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -901,7 +901,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 80.01) (xy 223.52 80.01)
+			(xy 193.04 80.01) (xy 222.25 80.01)
 		)
 		(stroke
 			(width 0)
@@ -941,7 +941,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 82.55) (xy 223.52 82.55)
+			(xy 207.01 82.55) (xy 222.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -951,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 87.63) (xy 223.52 87.63)
+			(xy 207.01 87.63) (xy 222.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -961,7 +961,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 193.04 80.01)
+			(xy 193.04 80.01) (xy 193.04 81.28)
 		)
 		(stroke
 			(width 0)
@@ -971,7 +971,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 77.47) (xy 223.52 77.47)
+			(xy 218.44 77.47) (xy 222.25 77.47)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +991,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 85.09) (xy 223.52 85.09)
+			(xy 218.44 85.09) (xy 222.25 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1001,7 +1001,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 90.17) (xy 223.52 90.17)
+			(xy 218.44 90.17) (xy 222.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +1631,7 @@
 	)
 	(symbol
 		(lib_id "Smarthome:Debug_SWD_Pogo_2x3")
-		(at 228.6 82.55 0)
+		(at 227.33 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1641,7 +1641,7 @@
 		(dnp no)
 		(uuid "c06f5d89-324a-4f24-972b-f68b6b2bea7d")
 		(property "Reference" "J1"
-			(at 231.648 75.184 0)
+			(at 230.378 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1651,19 +1651,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Debug_SWD_Pogo_2x3"
-			(at 223.52 93.472 0)
+		(property "Value" "Debug_SWD_Pogo_2x3_P2.00mm"
+			(at 232.156 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Smarthome:Debug_SWD_Pogo_2x3_P2.00mm"
-			(at 228.6 82.55 0)
+			(at 227.33 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1674,7 +1673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 82.55 0)
+			(at 227.33 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1684,8 +1683,8 @@
 				)
 			)
 		)
-		(property "Description" "6-pin SWD programming interface with 2x3 pogo pads and two asymmetric NPTH alignment holes"
-			(at 228.6 82.55 0)
+		(property "Description" "6-pin SWD pogo programming interface, 2x3, 2.00 mm pitch, without alignment holes"
+			(at 227.33 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
