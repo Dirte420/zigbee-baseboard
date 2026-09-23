@@ -151,6 +151,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "06028202-7c67-4473-a958-d8ff4a5304a1")
 		(at 140.9 101 -90)
@@ -501,6 +502,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "161cfcd3-84dc-4216-a034-4517c830a144")
 		(at 143.25 98.16 -90)
@@ -1594,6 +1596,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "185cde9c-c49b-4c86-8581-78d1c996f294")
 		(at 142.41 101 90)
@@ -2202,6 +2205,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "44a8c43c-3693-4b23-b49b-15742100e820")
 		(at 145.25 98.16 -90)
@@ -3082,6 +3086,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4f6e243d-ebad-4151-9a42-d886b7f7e6fe")
 		(at 146.12 98.3 90)
@@ -3888,6 +3893,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5b453be0-4462-4844-a36f-b37cff153912")
 		(at 141.65 98 -90)
@@ -4139,6 +4145,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Inductor_SMD:L_0201_0603Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5e5d4268-684a-4b7f-91f9-e4d486dc6d08")
 		(at 141.66 101 -90)
@@ -4293,6 +4300,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "602601e0-c935-449b-8457-5e54f9ff1a51")
 		(at 140.9 99.45 90)
@@ -5451,6 +5459,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "91768d8f-d969-459d-8759-aa41730bab8b")
 		(at 146.87 98.3 90)
@@ -5603,6 +5612,7 @@
 		)
 	)
 	(footprint "Smarthome:Module_EFR32MG24_Core_Castellated_L_12Pin_P2.54mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "91affae0-3c06-44c6-bd21-e0846448fdf7")
 		(at 134.2 86.64)
@@ -6111,6 +6121,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "941edb55-cf77-4b19-92ee-ac194d879677")
 		(at 140.15 100.36 -90)
@@ -6524,6 +6535,7 @@
 		)
 	)
 	(footprint "Smarthome:Antenna_Johanson_2450AT18A0100001E"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9f3f9c29-5f0b-4318-8e0d-923868c9f33a")
 		(at 146.65 101.44)
@@ -7121,6 +7133,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b3efd477-b3c6-40c7-b0d4-587f373067e8")
 		(at 144.25 98.16 -90)
@@ -7906,6 +7919,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d3f38a4f-f52a-44c7-872b-bb6511db3f15")
 		(at 142.4 99.45 -90)
