@@ -306,12 +306,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "0cdbc3b0-b95a-4149-be2e-7995c0dabac4")
-		(at 76.475 65.28)
+		(at 143.6 87.2)
 		(property "Reference" "TP22"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0bf82773-5b69-4af0-af50-cf067c2ab893")
+			(uuid "3e2f9402-2e58-4efe-8238-930fde975a16")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -323,7 +323,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "c15f3490-ad6b-4bfc-81c2-527fa18dc884")
+			(uuid "87fdc15b-fd06-438d-b3c2-8dd358ccf874")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -336,7 +336,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7026f99-c099-41c5-bca0-7bd9c88547ef")
+			(uuid "c7b561ff-779b-4ace-b5f1-63ec68e9be52")
 			(effects
 				(font
 					(size 1 1)
@@ -349,7 +349,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddeb9006-21da-40ff-8897-ff42f06c91b8")
+			(uuid "9b93aba5-a643-4b44-bbfa-1e3572d0996c")
 			(effects
 				(font
 					(size 1 1)
@@ -405,12 +405,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "15745e6d-3801-4874-ae9f-02648edca75e")
-		(at 71.375 57.63)
+		(at 146.8 91.8)
 		(property "Reference" "TP7"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "8daeac03-2ea5-4a0a-9664-a17508e8847d")
+			(uuid "58bfc78f-2abf-422d-af8f-a330208b6e81")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -422,7 +422,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a12c6f04-98ba-434b-a2df-1902198f57c1")
+			(uuid "37cecccf-77f9-4da7-950d-d1f661b4ed0b")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -435,7 +435,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62adf77e-55cc-497c-8c65-516e3cae1f69")
+			(uuid "e3afd720-b569-441e-b937-4b4ad14fc8fc")
 			(effects
 				(font
 					(size 1 1)
@@ -448,7 +448,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3fcdbee-5e60-4fbc-bf22-b4ae241f6ea6")
+			(uuid "a4f8b2f7-56de-4e12-a910-f1ee6de84067")
 			(effects
 				(font
 					(size 1 1)
@@ -1751,12 +1751,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "1bf00b5f-12f7-4a1d-b966-d88c1f48c832")
-		(at 71.375 65.28)
+		(at 145.2 96.6)
 		(property "Reference" "TP10"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4d3b80ec-eec8-4e8b-b454-3a898ff06009")
+			(uuid "82b69523-fb23-486d-a51c-f7e67a023e29")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -1768,7 +1768,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "65f41822-119a-4a34-b98a-520b6c232fa8")
+			(uuid "5b866326-fd8b-41ec-9f83-51efebedba14")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1781,7 +1781,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "066aba3d-6572-46a1-b89c-717302b7e73c")
+			(uuid "9d51d766-4d05-4152-b943-300a14472484")
 			(effects
 				(font
 					(size 1 1)
@@ -1794,7 +1794,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d58e92e-f16d-4fb0-b507-ab31cd89d07d")
+			(uuid "195074d4-217b-4e5f-9884-3f97f8f45437")
 			(effects
 				(font
 					(size 1 1)
@@ -2009,12 +2009,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "352e9276-21d3-4880-98f5-55c4236fe278")
-		(at 68.825 62.73)
+		(at 146.8 95)
 		(property "Reference" "TP3"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f9631a62-4489-43f7-a111-d1d8cab03611")
+			(uuid "4343fb82-a239-4f4f-a943-aafd8c740143")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -2026,7 +2026,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "36708cf5-01e2-4678-ba85-16a345c34784")
+			(uuid "ca7071ef-8bb1-4329-b897-e5176f4bf647")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2039,7 +2039,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "504a146b-9107-40ab-9f6b-df10e44b6a2e")
+			(uuid "d91366e7-1836-4b8e-8d6f-2180d0acdeec")
 			(effects
 				(font
 					(size 1 1)
@@ -2052,7 +2052,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70025b03-0c5c-4cd3-b1f6-f626e7e1a14d")
+			(uuid "c986a802-407e-4324-924e-0c4a1023a065")
 			(effects
 				(font
 					(size 1 1)
@@ -2108,12 +2108,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "41af967d-aa65-42e0-8aeb-12f1c632955e")
-		(at 68.825 70.38)
+		(at 148.4 93.4)
 		(property "Reference" "TP6"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0407ad53-3405-4463-b6ea-8e03f81e72da")
+			(uuid "1b127888-c3d0-4add-b039-ce56edaf3d78")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -2125,7 +2125,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "648b4337-09d0-4547-898f-7d8999ab9f13")
+			(uuid "5ceb2f68-3ccb-45fa-b02d-b1c27afcb505")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2138,7 +2138,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8282d26f-7dd5-463e-8120-134ec7cc5d4e")
+			(uuid "39b77742-4fd1-4559-92af-eb20939a6331")
 			(effects
 				(font
 					(size 1 1)
@@ -2151,7 +2151,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "962bd433-e050-4749-b915-3b18c13f0e0e")
+			(uuid "d6e2554e-9191-4ec9-b19d-7309be0791f2")
 			(effects
 				(font
 					(size 1 1)
@@ -2572,12 +2572,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "45d19130-c36d-4869-ab26-87eb2efb2c41")
-		(at 71.375 62.73)
+		(at 146.8 90.2)
 		(property "Reference" "TP9"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "2dd98548-4ee5-47d6-8393-4136b0f4dd73")
+			(uuid "d0da56e2-3332-4b5b-82d5-6ce8f1c538a8")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -2589,7 +2589,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ef53e490-0c73-4d37-b65c-0fca8a1d8a6b")
+			(uuid "cb46dbfa-0b46-47cb-8b73-0d570e19d864")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2602,7 +2602,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "947e90bf-746b-44ab-9364-60345971ae39")
+			(uuid "d11cd7ac-ad1b-4dc1-8c38-12e852ca55be")
 			(effects
 				(font
 					(size 1 1)
@@ -2615,7 +2615,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d896a5e4-dc86-466a-9f9e-62212014955d")
+			(uuid "7fc8bbd9-29dc-49e6-851c-600f28671fe6")
 			(effects
 				(font
 					(size 1 1)
@@ -2830,12 +2830,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "4be6570c-6c25-484a-ae61-47e49f6db4dd")
-		(at 76.475 57.63)
+		(at 142 88.8)
 		(property "Reference" "TP19"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "2db83cd1-658e-4c7e-9369-b815fd993d42")
+			(uuid "9b135dd6-4582-4246-9aa8-6376fca7f8af")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -2847,7 +2847,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "dd5351c5-f5e4-42c5-8a2a-3dff700172b1")
+			(uuid "79c56221-e39a-405c-ae4e-e7acef0b958f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2860,7 +2860,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f66f0beb-e592-425a-85cf-15f6920007c7")
+			(uuid "768ba470-2a5f-4302-866b-fcfe3c6ed503")
 			(effects
 				(font
 					(size 1 1)
@@ -2873,7 +2873,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fdc6dae5-3fcf-4e31-b266-f961041a7908")
+			(uuid "c20b1e8f-94e9-4f42-b529-526900160cfb")
 			(effects
 				(font
 					(size 1 1)
@@ -3400,12 +3400,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "509f0352-d542-411e-ae4b-47789ac494ee")
-		(at 73.925 60.18)
+		(at 138.2 92.2)
 		(property "Reference" "TP14"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4eeca8d6-5240-4b76-a857-069b637b0f7d")
+			(uuid "6fe305f9-07cf-4884-8314-79877a5883bd")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3417,7 +3417,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "05af0d6f-4288-4673-a977-360c1e2ea1e8")
+			(uuid "887af3f3-8d88-485a-a4ea-56eef7df3edd")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3430,7 +3430,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53788e59-108d-4185-aceb-88083cd6b5a0")
+			(uuid "10682a49-8878-4494-b661-c5770bcd4bc3")
 			(effects
 				(font
 					(size 1 1)
@@ -3443,7 +3443,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ae522e6-2d04-415c-bd24-967e2f391ced")
+			(uuid "e7276923-c995-4f4a-8191-59ed9d3d6c3b")
 			(effects
 				(font
 					(size 1 1)
@@ -3499,12 +3499,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "50e51b38-1203-4be2-8af1-29ea6a6ba7ae")
-		(at 73.925 62.73)
+		(at 138.2 93.8)
 		(property "Reference" "TP15"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "bb48c634-27b3-4933-875a-41a8a38d0539")
+			(uuid "38aaee33-3cb2-4424-8984-1cb6ef23b162")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3516,7 +3516,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "51489373-41ac-4cc8-b39a-951462259766")
+			(uuid "a05259f2-e169-4d02-b1ad-a5a7e56f11b2")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3529,7 +3529,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95847f78-afc2-4899-8441-902b1af6687c")
+			(uuid "286be100-3549-4724-8969-fd87efc9d786")
 			(effects
 				(font
 					(size 1 1)
@@ -3542,7 +3542,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa34601c-0213-40b7-8ac5-5f7e1cc2507f")
+			(uuid "1fa5300a-4cdf-474f-87a7-d51f6c76444c")
 			(effects
 				(font
 					(size 1 1)
@@ -3598,12 +3598,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "57417b12-200f-44cb-8f2c-2c62001131eb")
-		(at 73.925 67.83)
+		(at 138.2 97)
 		(property "Reference" "TP17"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "44fa2735-37d9-4d6d-ba4e-b387e1ea0790")
+			(uuid "3a0af780-9441-4174-9ea5-6459b4ba20ec")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3615,7 +3615,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "c67505f3-b7d9-470d-b250-4fb069049dff")
+			(uuid "2cd71a78-8da7-486d-9571-afafbf3572f0")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3628,7 +3628,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bcc3565d-0cd9-43c7-bd51-3f042f90f793")
+			(uuid "88b1d1fd-dbc8-4f6b-a232-89a5a5ed1510")
 			(effects
 				(font
 					(size 1 1)
@@ -3641,7 +3641,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a1d0f6b-b619-4356-9344-2b1eb03a9201")
+			(uuid "0d9909e3-85f4-4245-98d1-61eda6ed2f9e")
 			(effects
 				(font
 					(size 1 1)
@@ -3697,12 +3697,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "57e3d3d8-89b3-4e73-bf13-07f3d880c996")
-		(at 68.825 60.18)
+		(at 148.4 96.6)
 		(property "Reference" "TP2"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e968fb93-2f5b-4868-8435-05ece9d57ee3")
+			(uuid "25acb0d8-de58-4b6e-aba7-6c7617b23c68")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3714,7 +3714,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a31f84e5-abf3-4c27-8c2e-3983620d5c2f")
+			(uuid "201dd011-43cd-4e70-9afa-7c616165c930")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3727,7 +3727,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4ab0862-3015-452f-baa5-f07eefb947d3")
+			(uuid "a6bf5c5f-4c6f-490e-9451-b00f9e0db3de")
 			(effects
 				(font
 					(size 1 1)
@@ -3740,7 +3740,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96aab0de-d9b3-4557-aa34-d9d4f53b6ea6")
+			(uuid "1f7f4aa9-f8aa-4b0c-b3fc-1d9350df0138")
 			(effects
 				(font
 					(size 1 1)
@@ -3796,12 +3796,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "5b0cc09f-45ee-4200-ae79-de04a89a91ac")
-		(at 68.825 65.28)
+		(at 148.4 95)
 		(property "Reference" "TP4"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "7cc489da-be8e-4e26-8fd1-edf4d18695b7")
+			(uuid "547eb00e-7ca9-480a-9db4-c97b1ffae0f9")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3813,7 +3813,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "721b8dc3-6275-4609-861b-df86dca0c8ea")
+			(uuid "5fbc7fc9-9894-48f4-a8bd-2e77ac602f7e")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -3826,7 +3826,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27b537d3-883b-47f1-bae1-673584d46ce2")
+			(uuid "945295ba-fb0a-43bd-a5eb-a563c43fba1b")
 			(effects
 				(font
 					(size 1 1)
@@ -3839,7 +3839,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4113e914-a06c-4d7e-9d51-bf6a8308013a")
+			(uuid "8b98554a-7a99-441d-837a-6f9afcef9023")
 			(effects
 				(font
 					(size 1 1)
@@ -4048,12 +4048,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "5bb12200-343e-4541-993b-afa5084a4490")
-		(at 71.375 60.18)
+		(at 148.4 91.8)
 		(property "Reference" "TP8"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "da7fd978-b582-45fd-8296-cec168907339")
+			(uuid "f05e7bc4-fa7c-4274-bc4a-94576971401e")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -4065,7 +4065,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "470d49f0-a905-4d90-aa01-38ad6af2f1c5")
+			(uuid "538259ac-4895-4c2b-a3f0-d3648feb5098")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4078,7 +4078,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b0cb779-8ae1-47e6-bca5-fa482d6d063b")
+			(uuid "505fb789-6ae3-4397-9bdc-591500be81e0")
 			(effects
 				(font
 					(size 1 1)
@@ -4091,7 +4091,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96cd7902-ef3e-46cb-b39d-93b672e751e7")
+			(uuid "fb56d063-57a9-441a-afd6-5ff732b8f3e7")
 			(effects
 				(font
 					(size 1 1)
@@ -4455,12 +4455,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "6bd7e019-5245-42d9-bfca-a6fc95ce1d2c")
-		(at 73.925 70.38)
+		(at 138.2 98.6)
 		(property "Reference" "TP18"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0436ecbf-0886-4292-9052-3368117f673f")
+			(uuid "81ee0cc6-3541-4914-b132-e87582d5e139")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -4472,7 +4472,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "f96cc5d7-b144-4381-b6d8-a6e7fa229642")
+			(uuid "3fb321c5-8406-42ed-bb2a-20e8dfe49122")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4485,7 +4485,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3bc8332e-fd4e-4b6a-98eb-0f7317a1e53b")
+			(uuid "9974e330-3272-4b71-bc83-c1415d26f85a")
 			(effects
 				(font
 					(size 1 1)
@@ -4498,7 +4498,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ebf2497-1b32-4d0e-802b-8a9b8792cc45")
+			(uuid "92e079b8-c2ad-46d7-8ace-3e79e1ad9ddb")
 			(effects
 				(font
 					(size 1 1)
@@ -4734,12 +4734,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "80dcc6cb-f3a3-4df1-852c-30f3c01135b3")
-		(at 73.925 65.28)
+		(at 138.2 95.4)
 		(property "Reference" "TP16"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "d11c85d1-e804-4bf5-accd-9ddc4ff0a3cb")
+			(uuid "52fca278-0452-4ac2-a3c5-b6e9428fa347")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -4751,7 +4751,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "da6d641e-4eb3-4ba6-8477-8d01747717de")
+			(uuid "fd27f21d-5070-4d4e-beae-6f1faf599708")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -4764,7 +4764,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d42097bb-1859-4ae7-af8f-40bdc262e450")
+			(uuid "c8a6dbfc-7ab0-4553-9e0f-33a4de5146ae")
 			(effects
 				(font
 					(size 1 1)
@@ -4777,7 +4777,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c58931d7-2673-4100-aa85-29e5ddd08a39")
+			(uuid "7800950d-fb1b-48ad-a107-c5f0b8e5a508")
 			(effects
 				(font
 					(size 1 1)
@@ -7043,12 +7043,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "b26f728e-1305-458d-ab78-c5c49ff14e20")
-		(at 76.475 62.73)
+		(at 143.6 88.8)
 		(property "Reference" "TP21"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "fa9cf397-60bc-4b06-9e23-b413edf73da1")
+			(uuid "f16d9e39-b8f1-4aa8-a8a5-bcbf5385b3d0")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -7060,7 +7060,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2e1e0793-6d1c-4ab9-bc59-1c8e1ea94b7a")
+			(uuid "9bdae93a-513b-4413-8ca3-f3ae84cc0f91")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7073,7 +7073,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "913c0cb3-6016-4966-8978-8a717c8beec1")
+			(uuid "2044baf3-9972-400e-910c-08147b5d6c13")
 			(effects
 				(font
 					(size 1 1)
@@ -7086,7 +7086,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8336062e-de15-4278-8ce4-d0d490856bc1")
+			(uuid "30b0f873-06c7-4f2c-a309-670f51df49f2")
 			(effects
 				(font
 					(size 1 1)
@@ -7661,12 +7661,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "cf341324-ef1d-43fb-b318-ab549f65a431")
-		(at 68.825 57.63)
+		(at 146.8 96.6)
 		(property "Reference" "TP1"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "59f9ad85-4a6e-45c4-8e0a-2d3879fd9886")
+			(uuid "afada3a6-1258-4802-bdd4-784157b7d04e")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -7678,7 +7678,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "7ee313af-9711-4ac7-ab69-2b40ca4e542a")
+			(uuid "ac97259f-f2ad-4f78-a6ff-4af010500eb2")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7691,7 +7691,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4136d6f7-baf5-4fce-b6db-4f519c85a9d2")
+			(uuid "c9a7f3c3-620e-4428-81a4-91828a172566")
 			(effects
 				(font
 					(size 1 1)
@@ -7704,7 +7704,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff67eeeb-5f52-4701-bd87-ffab5405eda9")
+			(uuid "cc5edf95-480e-4733-a984-11196ac6d0a6")
 			(effects
 				(font
 					(size 1 1)
@@ -8066,12 +8066,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "da1b37e4-e069-499d-858d-ca18161a063d")
-		(at 71.375 67.83)
+		(at 143.6 96.6)
 		(property "Reference" "TP11"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c16255df-1795-46ed-93dd-986b2c507f26")
+			(uuid "3d2c165d-ecd6-4e7d-b730-599f5c7459b2")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -8083,7 +8083,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "aced44e4-3207-4658-91fb-c560a988b22d")
+			(uuid "40b8c98e-c7b0-4174-988b-e01fcc0a737e")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8096,7 +8096,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac685c64-7a1b-4794-bc64-71a332a1cc15")
+			(uuid "aff232b5-c816-4510-bede-60de9506117c")
 			(effects
 				(font
 					(size 1 1)
@@ -8109,7 +8109,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a7580f2-4e63-4453-92d6-349516cf32b3")
+			(uuid "9b686bf4-342c-43cc-8dc7-a32b4b8e26f3")
 			(effects
 				(font
 					(size 1 1)
@@ -8318,12 +8318,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "eb3e4403-94a4-424e-b33f-4b3d46c8311e")
-		(at 68.825 67.83)
+		(at 146.8 93.4)
 		(property "Reference" "TP5"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "41b9bb14-4fea-4b8f-95df-7e38e5971649")
+			(uuid "633510d0-a1e6-4eb4-ba30-c1c8d04bf2fb")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -8335,7 +8335,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "7bbcf2c9-f777-47d1-babd-4cbf259a6e00")
+			(uuid "262865ce-8879-4072-b792-cf1505b7dc2c")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8348,7 +8348,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5135a334-1f88-41bf-b830-7e7322b077cb")
+			(uuid "a9e9b928-6ca3-4bc4-b404-a26985c998bd")
 			(effects
 				(font
 					(size 1 1)
@@ -8361,7 +8361,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77528a07-301a-4f08-93e1-93e65187f942")
+			(uuid "904d5c26-308d-4ea0-bc1c-ece8b1b41902")
 			(effects
 				(font
 					(size 1 1)
@@ -8417,12 +8417,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "ecfe8f58-ebfc-4092-88ca-69fbb4721860")
-		(at 73.925 57.63)
+		(at 140.4 96.6)
 		(property "Reference" "TP13"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "5cafeb60-0324-4c5f-869a-1dd0eaa9d002")
+			(uuid "33bc294b-0883-42c8-9574-34eb0e7dce91")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -8434,7 +8434,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d7935f1e-7cc8-47c8-9400-3b91758ca166")
+			(uuid "28d0940b-ba9f-40d4-9c60-11d8b3336b4d")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8447,7 +8447,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5ba1f00-224f-4d69-bc94-782090140b4e")
+			(uuid "46a2e43e-0cc1-454b-a927-a16e61aa4c20")
 			(effects
 				(font
 					(size 1 1)
@@ -8460,7 +8460,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "329e5758-839a-4237-846b-07755ddc1830")
+			(uuid "d92e8363-71a1-4dbf-a73a-bf75b3525f08")
 			(effects
 				(font
 					(size 1 1)
@@ -8516,12 +8516,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "f157e707-51d0-4413-9e10-312c2c85eee1")
-		(at 71.375 70.38)
+		(at 142 96.6)
 		(property "Reference" "TP12"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "28a5e124-2656-4a49-8b50-9a87718e4607")
+			(uuid "1dab1079-ccf7-4ca2-9d74-1f248e2d05a3")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -8533,7 +8533,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "3d0eb961-b4ff-4652-adfa-8d78bf436c5d")
+			(uuid "61c9df0f-023c-4dfd-bbe4-10b44bd8d351")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8546,7 +8546,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51afd5f6-168e-47fb-9c9f-5f8a94a8952c")
+			(uuid "c39fec0c-87ea-46e7-8b4a-7fd3d5960331")
 			(effects
 				(font
 					(size 1 1)
@@ -8559,7 +8559,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a27f4a45-e856-449c-a542-d0587b2eb58a")
+			(uuid "59aa3d1f-3175-42f8-a5ea-5d70468ea1a7")
 			(effects
 				(font
 					(size 1 1)
@@ -8615,12 +8615,12 @@
 	(footprint "Smarthome:GPIO_SolderPad_D1.0mm_Bottom"
 		(layer "F.Cu")
 		(uuid "f1d01090-cd98-4334-abdc-e7cd699a8126")
-		(at 76.475 60.18)
+		(at 142 87.2)
 		(property "Reference" "TP20"
 			(at 0 -0.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "901b1fc5-3f9b-4234-8b53-2521c4c948d8")
+			(uuid "c89c6e81-fc91-4285-8f35-87fd3876b4b1")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -8632,7 +8632,7 @@
 			(at 0 2 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "0c622919-b1c5-4cb4-a09d-5af081077446")
+			(uuid "da4afc75-793c-457c-ba76-83e7916be988")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8645,7 +8645,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3152fde3-a54f-4333-a822-05996718bfa4")
+			(uuid "39bfffe4-a468-4384-9ca6-b81ce050e208")
 			(effects
 				(font
 					(size 1 1)
@@ -8658,7 +8658,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "88ed31d8-2b97-4788-b68a-ec36e65687ee")
+			(uuid "f74123c6-5419-434f-a535-f8ab7a2570dc")
 			(effects
 				(font
 					(size 1 1)
