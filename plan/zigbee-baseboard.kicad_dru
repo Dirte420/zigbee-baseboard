@@ -1,10 +1,11 @@
 (version 1)
-(rule "U1 QFN clearance"
-    (condition "A.Parent == 'U1' || B.Parent == 'U1'")
-    (constraint clearance (min 0.10mm))
-)
 
 (rule "Same footprint pad clearance"
     (condition "A.Parent == B.Parent")
     (constraint clearance (min 0.18mm))
+)
+
+(rule "U1 QFN clearance"
+    (condition "A.Parent == 'U1' || B.Parent == 'U1'")
+    (constraint clearance (min 0.10mm))
 )
