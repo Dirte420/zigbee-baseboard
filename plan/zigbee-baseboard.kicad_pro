@@ -76,7 +76,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|133500000|102030000|df4c7f4f-2673-472f-abc2-9b50a1a89642|06c31f85-e2a5-4819-8fd3-340fa9d76e0f",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|133500000|86790000|df4c7f4f-2673-472f-abc2-9b50a1a89642|132564bc-e009-42c7-90cc-bbfb9a60e670",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|133500000|89330000|df4c7f4f-2673-472f-abc2-9b50a1a89642|471df794-09bf-442f-83db-061d3c2cc108",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|133500000|91870000|df4c7f4f-2673-472f-abc2-9b50a1a89642|95b9be33-cbc9-4312-bd37-2435072db681",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|133500000|94410000|df4c7f4f-2673-472f-abc2-9b50a1a89642|9be069ed-aa66-44d8-a0ed-7b2298bfa674",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|133500000|96950000|df4c7f4f-2673-472f-abc2-9b50a1a89642|460711be-2af5-498f-9929-82504ef25276",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|133500000|99490000|df4c7f4f-2673-472f-abc2-9b50a1a89642|68263e37-3807-4012-8feb-66eb69de6a15",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|135750000|82000000|df4c7f4f-2673-472f-abc2-9b50a1a89642|ba718727-5e1a-4ae0-a202-5bf2c05184e4",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|138290000|82000000|df4c7f4f-2673-472f-abc2-9b50a1a89642|b9c014e2-acfe-46bb-aea0-c3db00440aec",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|140830000|82000000|df4c7f4f-2673-472f-abc2-9b50a1a89642|4f7a15f1-3f11-4144-9ab6-b3d11d04707b",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|143370000|82000000|df4c7f4f-2673-472f-abc2-9b50a1a89642|44ad4ac6-f70a-4e28-a52a-3e499626a0ff",
+          "Ok because it is a castellated pad"
+        ],
+        [
+          "copper_edge_clearance|145910000|82000000|df4c7f4f-2673-472f-abc2-9b50a1a89642|326dcada-10f5-46b2-853b-1669810b3d54",
+          "Ok because it is a castellated pad"
+        ]
+      ],
       "meta": {
         "version": 2
       },
