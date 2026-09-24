@@ -5612,14 +5612,15 @@
 		)
 	)
 	(footprint "Smarthome:Module_EFR32MG24_Core_Castellated_L_12Pin_P2.54mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "91affae0-3c06-44c6-bd21-e0846448fdf7")
-		(at 133.8 86.64)
+		(at 133.5 86.24)
 		(property "Reference" "J2"
 			(at 5.5 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "03c361c3-1a1f-4ac6-ab91-742414bdca1f")
+			(uuid "b84dc808-c872-4c97-aef3-e4bbdbbfe665")
 			(effects
 				(font
 					(size 1 1)
@@ -5631,7 +5632,7 @@
 			(at 8.5 9 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "82ca74de-c0b5-45fc-8334-3d08d72ed9df")
+			(uuid "2c76d8e9-5d5b-44e2-81d6-46601a4a4f84")
 			(effects
 				(font
 					(size 1 1)
@@ -5644,7 +5645,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0cbbda2-a850-4f01-b683-c0e0e5626131")
+			(uuid "9e682a90-23f0-4cef-8b70-dac94b51d951")
 			(effects
 				(font
 					(size 1 1)
@@ -5657,7 +5658,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2402019-fd02-483b-ab9b-12970928e14c")
+			(uuid "d4555a92-a3ae-49a4-9944-e3f12d7f3d08")
 			(effects
 				(font
 					(size 1 1)
