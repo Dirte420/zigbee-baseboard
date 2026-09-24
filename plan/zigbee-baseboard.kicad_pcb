@@ -5612,15 +5612,14 @@
 		)
 	)
 	(footprint "Smarthome:Module_EFR32MG24_Core_Castellated_L_12Pin_P2.54mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "91affae0-3c06-44c6-bd21-e0846448fdf7")
-		(at 134.2 86.64)
+		(at 133.8 86.64)
 		(property "Reference" "J2"
 			(at 5.5 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b84dc808-c872-4c97-aef3-e4bbdbbfe665")
+			(uuid "03c361c3-1a1f-4ac6-ab91-742414bdca1f")
 			(effects
 				(font
 					(size 1 1)
@@ -5632,7 +5631,7 @@
 			(at 8.5 9 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2c76d8e9-5d5b-44e2-81d6-46601a4a4f84")
+			(uuid "82ca74de-c0b5-45fc-8334-3d08d72ed9df")
 			(effects
 				(font
 					(size 1 1)
@@ -5645,7 +5644,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e682a90-23f0-4cef-8b70-dac94b51d951")
+			(uuid "a0cbbda2-a850-4f01-b683-c0e0e5626131")
 			(effects
 				(font
 					(size 1 1)
@@ -5658,7 +5657,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4555a92-a3ae-49a4-9944-e3f12d7f3d08")
+			(uuid "c2402019-fd02-483b-ab9b-12970928e14c")
 			(effects
 				(font
 					(size 1 1)
@@ -8718,7 +8717,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "b646f924-0fa3-4b8b-b614-9c4bfcc7751c")
 	)
 	(gr_line
@@ -8728,7 +8727,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "793b60b5-70ad-476d-b987-b5cf900ee9f6")
 	)
 	(gr_line
@@ -8738,7 +8737,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "b3856d03-4821-4c15-8f71-d13afeda3812")
 	)
 	(gr_line
@@ -8748,8 +8747,19 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "df6af0d1-5fdf-4575-becc-6d065ad3dd11")
+	)
+	(gr_rect
+		(start 133.5 82)
+		(end 149.5 103)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "df4c7f4f-2673-472f-abc2-9b50a1a89642")
 	)
 	(segment
 		(start 140.9 100.68)
